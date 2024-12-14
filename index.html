@@ -1,60 +1,57 @@
 <!doctype html>
 
 <head>
-	<meta charset="utf-8">
-	<!-- Google Analytics -->
-	<script>
-		window.ga = window.ga || function () { (ga.q = ga.q || []).push(arguments) }; ga.l = +new Date;
-		ga('create', 'UA-XXXXX-Y', 'auto');
-		ga('send', 'pageview');
-	</script>
-	<!-- End Google Analytics -->
-	<script src='https://www.google-analytics.com/analytics.js'></script>
-	<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-	<link rel="stylesheet" href="styles.css" />
-	<link rel="stylesheet" href="jquery-ui.css" />
-	<title>Website with perf issues</title>
+    <meta charset="utf-8">
+    <!-- Google Analytics -->
+    <script async src='https://www.google-analytics.com/analytics.js'></script>
+    <!-- End Google Analytics -->
+    <script src="https://code.jquery.com/jquery-3.2.1.js" defer></script>
+    <link rel="preload" href="styles.css" as="style" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preload" href="jquery-ui.css" as="style" />
+    <link rel="stylesheet" href="jquery-ui.css" />
+    <title>Optimized Website</title>
 </head>
 
 <body>
-	<iframe width="560" height="315" src="https://www.youtube.com/embed/4QkuvwRftTw"
-		allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
-	<div class="images">
-		<img src="https://loremflickr.com/400/300?random=1" />
-		<img src="https://loremflickr.com/400/300?random=2" />
-		<img src="https://loremflickr.com/400/300?random=3" />
-		<img src="https://loremflickr.com/400/300?random=4" />
-		<img src="https://loremflickr.com/400/300?random=5" />
-		<img src="https://loremflickr.com/400/300?random=6" />
-		<img src="https://loremflickr.com/400/300?random=7" />
-		<img src="https://loremflickr.com/400/300?random=8" />
-		<img src="https://loremflickr.com/400/300?random=9" />
-		<img src="https://loremflickr.com/400/300?random=10" />
-		<img src="https://loremflickr.com/400/300?random=11" />
-		<img src="https://loremflickr.com/400/300?random=12" />
-		<img src="https://loremflickr.com/400/300?random=13" />
-		<img src="https://loremflickr.com/400/300?random=14" />
-		<img src="https://loremflickr.com/400/300?random=15" />
-		<img src="https://loremflickr.com/400/300?random=16" />
-		<img src="https://loremflickr.com/400/300?random=17" />
-	</div>
-	<div class="container">
-		<div class="box">
-			<h1>Hello</h1>
-		</div>
-		<div class="box">
-			<img src="https://loremflickr.com/400/300?random" />
-		</div>
-		<div class="box">
-			<h2>Breaking news</h2>
-			<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
-				et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
-				rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
-				dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-				magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-				clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-		</div>
-	</div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4QkuvwRftTw" loading="lazy"
+        allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+    <div class="images">
+        <img src="https://loremflickr.com/400/300?random=1" loading="lazy" />
+        <img src="https://loremflickr.com/400/300?random=2" loading="lazy" />
+        <img src="https://loremflickr.com/400/300?random=3" loading="lazy" />
+        <img src="https://loremflickr.com/400/300?random=4" loading="lazy" />
+        <img src="https://loremflickr.com/400/300?random=5" loading="lazy" />
+        <img src="https://loremflickr.com/400/300?random=6" loading="lazy" />
+        <img src="https://loremflickr.com/400/300?random=7" loading="lazy" />
+        <img src="https://loremflickr.com/400/300?random=8" loading="lazy" />
+        <img src="https://loremflickr.com/400/300?random=9" loading="lazy" />
+        <img src="https://loremflickr.com/400/300?random=10" loading="lazy" />
+        <img src="https://loremflickr.com/400/300?random=11" loading="lazy" />
+        <img src="https://loremflickr.com/400/300?random=12" loading="lazy" />
+        <img src="https://loremflickr.com/400/300?random=13" loading="lazy" />
+        <img src="https://loremflickr.com/400/300?random=14" loading="lazy" />
+        <img src="https://loremflickr.com/400/300?random=15" loading="lazy" />
+        <img src="https://loremflickr.com/400/300?random=16" loading="lazy" />
+        <img src="https://loremflickr.com/400/300?random=17" loading="lazy" />
+    </div>
+    <div class="container">
+        <div class="box">
+            <h1>Hello</h1>
+        </div>
+        <div class="box">
+            <img src="https://loremflickr.com/400/300?random" loading="lazy" />
+        </div>
+        <div class="box">
+            <h2>Breaking news</h2>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+                dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+                magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+        </div>
+    </div>
 </body>
 
 </html>
